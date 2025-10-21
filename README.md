@@ -78,28 +78,23 @@ Data dari file akan otomatis masuk ke database dan langsung muncul pada tabel ap
 ---
 
 ## 🖼️ Tampilan Aplikasi  
-
-- **Tampilan Form Utama dengan tombol Upload CSV**  
-  <br>
-  <img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/2bb5a0af-b9fe-4ebe-bc97-ba7477f7b482" />
+**Tampilan Form Utama dengan tombol Upload CSV**  
+<img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/2bb5a0af-b9fe-4ebe-bc97-ba7477f7b482" />
 
   <br><br>
 
-- **Tampilan saat memilih file CSV melalui JFileChooser**  
-  <br>
-  <img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/d2682bf9-620c-4691-87f8-787f6ba2d101" />
+**Tampilan saat memilih file CSV melalui JFileChooser**  
+<img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/d2682bf9-620c-4691-87f8-787f6ba2d101" />
 
   <br><br>
 
-- **Pesan sukses setelah proses Upload selesai**  
-  <br>
-  <img width="777" height="236" alt="image" src="https://github.com/user-attachments/assets/566dc09f-dca0-4d0a-ac62-630c291949ab" />
+**Pesan sukses setelah proses Upload selesai**  
+<img width="777" height="236" alt="image" src="https://github.com/user-attachments/assets/566dc09f-dca0-4d0a-ac62-630c291949ab" />
 
   <br><br>
 
-- **Data baru otomatis muncul di JTable GUI**  
-  <br>
-  <img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/29b13c60-8b25-499c-b48a-675cafcf1e92" />
+**Data baru otomatis muncul di JTable GUI**  
+<img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/29b13c60-8b25-499c-b48a-675cafcf1e92" />
 
 <br><br>
 
