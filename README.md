@@ -1,4 +1,4 @@
-# 🖥️📚 TUGAS PBO – Pertemuan Kesepuluh
+# 🖥️📚 TUGAS PBO – Pertemuan Kesepuluh  
 
 **Implementasi Fitur Upload CSV pada Aplikasi CRUD Member Gym (Java Swing + JDBC + PostgreSQL)**  
 
@@ -32,57 +32,79 @@ Fungsinya yakni:
 ---
 
 ## ⚙️ Langkah-Langkah Implementasi  
-1. **Menambahkan Tombol Upload**  
-   - Tambahkan tombol **Upload** pada `MemberFrame.java` di NetBeans, Klik dua kali tombol tersebut untuk membuat event `btnUploadActionPerformed`.
-     <img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/b62090da-dc71-4079-9386-acab1c921b56" />
 
-2. **Menulis Kode Event Upload**  
-   - Gunakan `JFileChooser` untuk memilih file CSV, lalu baca isinya dengan `BufferedReader`.
-     <img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/a23cec4a-a33e-4543-98dc-b8ec4851f798" />
+### 1. Menambahkan Tombol Upload  
+Tambahkan tombol **Upload** pada `MemberFrame.java` di NetBeans dan klik dua kali tombol tersebut untuk membuat event `btnUploadActionPerformed`.  
+<img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/b62090da-dc71-4079-9386-acab1c921b56" />
 
-     <img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/1a9d26af-6139-4e5d-b2b0-3348a2ae9222" />
+<br><br>
 
-4. **Menyiapkan File CSV**  
-   - Buat file CSV menggunakan Excel dengan struktur kolom:  
-     <img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/8705885e-3741-4e1d-987d-76e7b32b89a8" />
+### 2. Menulis Kode Event Upload  
+Gunakan `JFileChooser` untuk memilih file CSV, lalu baca isinya dengan `BufferedReader`.
+<img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/a23cec4a-a33e-4543-98dc-b8ec4851f798" />
 
-   - Simpan file dalam format **CSV UTF-8 (Comma delimited)** dan pastikan tanda pemisahnya menggunakan `;`.
-     <img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/01218abb-7a86-4875-87c2-d43a48c9b5ce" />
+<br>
 
+<img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/1a9d26af-6139-4e5d-b2b0-3348a2ae9222" />
 
-5. **Uji Coba Program**  
-   - Jalankan aplikasi, lalu klik tombol **Upload**.
-     <img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/daa9f1ab-0e6b-4610-b360-595f64a2df98" />
+<br><br>
 
-   - Pilih file CSV yang sudah dibuat, klik **Open**, dan tunggu hingga muncul pesan **“Upload berhasil!”**
-     <img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/c55e8c40-3fa7-4364-8562-95ff0b1234e6" />
+### 3. Menyiapkan File CSV  
+Buat file CSV menggunakan Excel dengan struktur kolom seperti berikut:
+<img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/8705885e-3741-4e1d-987d-76e7b32b89a8" />
 
-   - Data dari file akan otomatis masuk ke database dan langsung muncul pada tabel aplikasi.
-     <img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/e3d64b0a-9dc1-4496-9955-7efc0dde2e72" />
+<br>
 
+Simpan file dalam format **CSV UTF-8 (Comma delimited)** dan pastikan tanda pemisahnya menggunakan `;`.
+
+<img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/01218abb-7a86-4875-87c2-d43a48c9b5ce" />
+
+<br><br>
+
+### 4. Uji Coba Program  
+Jalankan aplikasi, lalu klik tombol **Upload**.
+<img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/daa9f1ab-0e6b-4610-b360-595f64a2df98" />
+
+<br>
+
+Pilih file CSV yang sudah dibuat, klik **Open**, dan tunggu hingga muncul pesan **“Upload berhasil!”**
+<img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/c55e8c40-3fa7-4364-8562-95ff0b1234e6" />
+
+<br>
+
+Data dari file akan otomatis masuk ke database dan langsung muncul pada tabel aplikasi.
+<img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/e3d64b0a-9dc1-4496-9955-7efc0dde2e72" />
 
 ---
 
 ## 🖼️ Tampilan Aplikasi  
 
-- Tampilan Form Utama dengan tombol Upload CSV  
+- **Tampilan Form Utama dengan tombol Upload CSV**  
+  <br>
   <img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/2bb5a0af-b9fe-4ebe-bc97-ba7477f7b482" />
- 
 
-- Tampilan saat memilih file CSV melalui JFileChooser  
+  <br><br>
+
+- **Tampilan saat memilih file CSV melalui JFileChooser**  
+  <br>
   <img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/d2682bf9-620c-4691-87f8-787f6ba2d101" />
 
+  <br><br>
 
-- Pesan sukses setelah proses Upload selesai  
+- **Pesan sukses setelah proses Upload selesai**  
+  <br>
   <img width="777" height="236" alt="image" src="https://github.com/user-attachments/assets/566dc09f-dca0-4d0a-ac62-630c291949ab" />
 
+  <br><br>
 
-- Data baru otomatis muncul di JTable GUI  
+- **Data baru otomatis muncul di JTable GUI**  
+  <br>
   <img width="777" height="500" alt="image" src="https://github.com/user-attachments/assets/29b13c60-8b25-499c-b48a-675cafcf1e92" />
 
+<br><br>
 
-  Laporan PDF : [TugasPertemuan10PBO.pdf](https://github.com/user-attachments/files/23024697/TugasPertemuan10PBO.pdf)
-
+📄 **Laporan PDF:**  
+[TugasPertemuan10PBO.pdf](https://github.com/user-attachments/files/23024697/TugasPertemuan10PBO.pdf)
 
 ---
 
