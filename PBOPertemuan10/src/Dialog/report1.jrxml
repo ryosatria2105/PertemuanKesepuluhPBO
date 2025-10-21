@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="70e4e55d-d666-46b4-8983-874343d79079">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select * from member_gym]]>
+	</queryString>
+	<field name="id_member" class="java.lang.Integer"/>
+	<field name="nama" class="java.lang.String"/>
+	<field name="tipe_paket" class="java.lang.String"/>
+	<field name="coach" class="java.lang.String"/>
+	<group name="id_member">
+		<groupExpression><![CDATA[$F{id_member}]]></groupExpression>
+	</group>
+	<group name="nama">
+		<groupExpression><![CDATA[$F{nama}]]></groupExpression>
+	</group>
+	<group name="tipe_paket">
+		<groupExpression><![CDATA[$F{tipe_paket}]]></groupExpression>
+	</group>
+	<group name="coach">
+		<groupExpression><![CDATA[$F{coach}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="253" y="25" width="119" height="20" uuid="e074cb83-0253-4bff-ad53-356a988476e2"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RYO'S GYM CENTER]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="114" y="45" width="426" height="33" uuid="348ff41e-38f6-40e2-aa5c-efb51c4e4d15"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Jl. Raya Galaxy No.21, Kel. Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+Telp. (031) 8890 1122 | Email: contact@ryosgym.co.]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="-9" width="99" height="78" uuid="62ccafbf-a74f-4bb8-b0e2-806f3896c2eb"/>
+				<imageExpression><![CDATA["D:\\Videos\\bg\\RG.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="48" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="1" width="555" height="1" uuid="fe75d144-19a9-4984-9207-42bb8e44501d"/>
+			</line>
+			<staticText>
+				<reportElement x="136" y="21" width="282" height="27" uuid="6dedd748-4989-4903-acdd-28f637b5eb60"/>
+				<textElement>
+					<font size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Daftar Data Member RYO'S GYM]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="39" splitType="Stretch">
+			<staticText>
+				<reportElement x="80" y="19" width="75" height="20" uuid="ffec7865-bde3-46f4-b27b-e13d6262f611"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ID Member]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="155" y="19" width="148" height="20" uuid="ddb41957-c802-432c-9da1-4ec28d8770c3"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="303" y="19" width="98" height="20" uuid="9d68fb7c-4d70-492a-9a34-84b0cb2383ea"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tipe Paket]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="401" y="19" width="117" height="20" uuid="1f939776-d26a-405b-b541-649f5c84c25e"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Coach]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="47" y="19" width="33" height="20" uuid="3a7a3e59-34eb-44da-84b0-75be5a06e46d"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[NO]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField isStretchWithOverflow="true">
+				<reportElement x="47" y="0" width="33" height="20" uuid="063f309f-3d62-421d-93e0-93f0ffe1d4fb"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{COLUMN_COUNT}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="80" y="0" width="75" height="20" uuid="6d167fba-d087-4946-8751-8f11d47c1d83"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{id_member}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="155" y="0" width="148" height="20" forecolor="#000000" uuid="4761c8d0-4ff1-4a1f-928c-8b1a1820d86a"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="303" y="0" width="98" height="20" uuid="6ba5fe4a-2502-4e4b-be06-8756c34896cd"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tipe_paket}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="401" y="0" width="117" height="20" uuid="9ab9aef8-4bd4-43bf-b0fc-73a61271fe0b"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{coach}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="44" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="193" splitType="Stretch">
+			<staticText>
+				<reportElement x="380" y="19" width="62" height="20" uuid="1cd41422-d626-472c-b7d7-79b0cc64d5fa"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Surabaya,  ]]></text>
+			</staticText>
+			<textField pattern="dd MMMMM yyyy">
+				<reportElement x="441" y="19" width="114" height="20" uuid="e9f512fd-ee4e-431f-bcc1-d19de69d1ae7"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="380" y="39" width="106" height="20" uuid="9954f6f6-e282-4d02-9a0d-94e89a22f443"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Owner RYO'S GYM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="379" y="130" width="144" height="17" uuid="d1eac009-d3e8-47c5-856d-8c9e784d621c"/>
+				<textElement textAlignment="Center">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Ryo Satriagung H, S.Kom]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
